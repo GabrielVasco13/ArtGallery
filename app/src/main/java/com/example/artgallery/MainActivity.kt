@@ -63,7 +63,7 @@ fun ArtGallery() {
 }
 
 @Composable
-fun ImageSwitcher(modifier: Modifier = Modifier) {
+fun ImageSwitcher() {
 
     val imageIndex = remember { mutableIntStateOf(0) }
 
@@ -78,7 +78,8 @@ fun ImageSwitcher(modifier: Modifier = Modifier) {
     Image(
         painter = painterResource(images[imageIndex.intValue]),
         contentDescription = "Image",
-        modifier = Modifier.size(500.dp)
+        modifier = Modifier.fillMaxSize(),
+        alignment = Alignment.Center,
     )
 
     Row {
@@ -115,15 +116,6 @@ fun SwitchButton(
         }) {
             Text(text = valueText)
         }
-
-    }
-}
-
-@Composable
-fun imageSection() {
-    Column(
-
-    ) {
 
     }
 }
