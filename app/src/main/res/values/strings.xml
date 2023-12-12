@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Art Gallery</string>
+
+    /* obras de arte */
+
+    <string name="descriptionPieta">A Pietà</string>
+    <string name="descriptionDavi">Davi</string>
+    <string name="descriptionTondo">Tondo Doni</string>
+    <string name="descriptionCapela">Afrescos da Capela Sistina</string>
+    <string name="descriptionMoises">Moises</string>
+
+    /* Data de cada arte */
+    <string name="DatePieta">(1498–1499)</string>
+    <string name="DateDavi">(1501–1504)</string>
+    <string name="DateTondo">(1504–1506)</string>
+    <string name="DateCapela">(1508–1512)</string>
+    <string name="DateMoises">(1513–1515)</string>
+
+</resources>
